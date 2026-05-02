@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Figure 2</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    padding: 20px;
+  }
+  figure {
+    display: table;
+    max-width: calc(100vw - 40px);
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 85vh;
+    object-fit: contain;
+  }
+  figcaption {
+    display: table-caption;
+    caption-side: top;
+    color: #ccc;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    margin-bottom: 16px;
+  }
+  @media (max-width: 600px) {
+    body { padding: 12px; }
+    figure { max-width: calc(100vw - 24px); }
+    figcaption { font-size: 14px; }
+  }
+</style>
+</head>
+<body>
+<figure>
+  <figcaption><strong>Figure 2.</strong> Five sociocultural AI projects alongside the dominant AI assistant model, visualized using a common structure. Each diagram asks what sits at the center, how is AI positioned, and who holds compositional authority. The AI assistant is arranged around the individual user and personal productivity. The five alternatives illustrate different possible arrangements of AI around a different unit of analysis, set of relationships, and commitments about whose knowledge and practices matter. Projects are organized as they grow in scale from top left to bottom right.</figcaption>
+  <img src="Fig_2.png" alt="Figure 2. Five sociocultural AI projects alongside the dominant AI assistant model, visualized using a common structure.">
+</figure>
+</body>
+</html>
